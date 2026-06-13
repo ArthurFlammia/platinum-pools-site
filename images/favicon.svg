@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- rounded square background in the brand blue -->
+  <rect width="32" height="32" rx="6" fill="#0e5e7a"/>
+  <!-- water droplet shape -->
+  <path d="M16 6 C16 6 9 15 9 20 a7 7 0 0 0 14 0 C23 15 16 6 16 6 Z" fill="#d7eef7"/>
+</svg>
