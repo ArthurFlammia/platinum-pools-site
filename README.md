@@ -28,6 +28,15 @@ over email).
 
 ## What I Learned
 
-[Write 3-4 sentences in your own words: what surprised you about the
-client conversation, what CSS concept clicked, what you'd do
-differently. This gets read in checkpoints — it should sound like you.]
+From the interview, I learned that the primary goal of the website is
+to encourage potential customers to call or request a quote. I also
+learned that customers frequently have questions about service areas,
+what is included in weekly pool maintenance, and when to schedule
+openings and closings. The feedback showed that clear contact
+information, service descriptions, and photos of completed work are
+important for building trust. Based on this input, I updated the
+website to make key information easier for visitors to find. On the
+build side, I learned that a static GitHub Pages site can't process
+form submissions, so instead of a quote form I made the phone number a
+tappable `tel:` link in the header of every page — which also matched
+how the client prefers to be contacted.
