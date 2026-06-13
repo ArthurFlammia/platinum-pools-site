@@ -1,0 +1,112 @@
+/* ============================================
+   Platinum Pools stylesheet
+   Every rule uses concepts from class:
+   element, class, descendant selectors,
+   :hover, inheritance, flexbox, media query.
+   ============================================ */
+
+/* ELEMENT selector + INHERITANCE:
+   font and base colors set once on body,
+   everything inside inherits them */
+body {
+  font-family: Verdana, Arial, sans-serif; /* clean sans-serif fits a service business */
+  color: #1c2a33;            /* dark slate text */
+  background-color: #f4f9fb; /* very light blue-white, like pool water */
+  margin: 0;                 /* remove browser's default page margin */
+  line-height: 1.6;          /* spacing between lines for readability */
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;                  /* site name and nav side by side */
+  justify-content: space-between; /* pushed to opposite ends */
+  align-items: center;            /* vertically centered */
+  padding: 16px 32px;
+  background-color: #0e5e7a;      /* deep ocean blue = brand color */
+}
+
+/* CLASS selector for the h1 in the header */
+.site-name {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0; /* remove h1's default margin inside the header */
+}
+
+/* DESCENDANT selector: only links inside nav */
+nav a {
+  color: #ffffff;
+  text-decoration: none; /* remove default underline */
+  margin-left: 24px;     /* space between nav links */
+}
+
+/* PSEUDO-CLASS: underline appears on hover */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CLASS selector: phone number in the header stands out */
+.header-phone {
+  font-weight: bold;          /* heavier text draws the eye */
+  border: 1px solid #ffffff;  /* thin outline makes it look tappable */
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 80px 24px;
+  /* gradient = light at top fading to white, like sunlight on water */
+  background: linear-gradient(#d7eef7, #f4f9fb);
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+/* Link styled to look like a button */
+.button {
+  display: inline-block;     /* lets padding apply like a box */
+  background-color: #0e5e7a; /* same brand blue as header */
+  color: #ffffff;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+/* hover feedback: slightly lighter blue */
+.button:hover {
+  background-color: #14799c;
+}
+
+/* ===== GENERAL SECTIONS ===== */
+section {
+  max-width: 800px;  /* keeps text lines a readable width */
+  margin: 0 auto;    /* auto side margins center the section */
+  padding: 40px 24px;
+}
+
+/* ===== SERVICE CARDS ===== */
+.card-row {
+  display: flex;   /* cards line up in a row */
+  flex-wrap: wrap; /* lets cards wrap to a second row if they run out of space */
+  gap: 16px;       /* space between cards */
+}
+
+.card {
+  flex: 1;            /* each card takes equal width */
+  min-width: 220px;   /* cards wrap instead of getting too squished */
+  background-color: #ffffff;
+  border: 1px solid #cde3ec; /* light blue border */
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+  color: #6b7d87
