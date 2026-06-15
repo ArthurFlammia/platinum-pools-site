@@ -52,9 +52,9 @@ Interview notes:
   need to be clearer
 - Colors: blue, white, gray; clean and professional, not flashy
 
-### Conversation 2 — [date pending: complete after sending live link]
-[Send the deployed GitHub Pages URL, ask for one thing to change,
-log the feedback and the change here with the real date.]
+### Conversation 2 — June 16, 2026
+Sent Vernon the live link (https://arthurflammia.github.io/platinum-pools-site/). He looked at it on his phone and approved the overall direction — said it works and the layout is clear. His one piece of feedback: the site looks too plain and needs more pictures of actual pools and his work.
+Change in response: the services page already has a gallery section built but commented out (so nothing deploys broken without images). Next step is adding the photos Vernon provides into that gallery and uncommenting it, plus a hero image on the home page, to address the “too plain” feedback.
 
 ## Layout Plan
 
